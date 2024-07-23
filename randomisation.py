@@ -19,3 +19,10 @@ if game == 1:
   print("Tails")
 else:
     print("Heads")
+    
+    
+    
+
+
+
+

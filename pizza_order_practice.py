@@ -1,4 +1,4 @@
-print("Thank you for choosing Python Pizza Deliveries!")
+'''print("Thank you for choosing Python Pizza Deliveries!")
 size = input() # What size pizza do you want? S, M, or L
 add_pepperoni = input() # Do you want pepperoni? Y or N
 extra_cheese = input() # Do you want extra cheese? Y or N
@@ -28,7 +28,14 @@ elif size == "L":
 if extra_cheese == "Y":
   bill += 1
 
-print(f"Your final bill is: ${bill}.")
+print(f"Your final bill is: ${bill}.")'''
+
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+
+fruits[-1] = "Melons"
+
+fruits.append("Lemons")
+print(fruits)
 
 
 
